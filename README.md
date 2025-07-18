@@ -1,102 +1,134 @@
-# 🎟️ Movie Ticket Reservation System (C++)
+# 📚 C++ Data Structures and Algorithms Projects
 
-A beginner-friendly **console-based movie ticket reservation system** written in **C++**, using **linked lists** and **dynamic memory allocation**. This project demonstrates core data structures, pointer logic, and basic user interaction — perfect for students learning C++.
-
----
-
-## 📌 Core Features
-
-✅ Reserve a movie ticket (enter ticket number, movie name, customer name)  
-✅ Display all current reservations  
-✅ Cancel a reservation by ticket number  
-✅ Menu-driven interface  
-✅ No external libraries — pure C++ with `struct` and `pointers`
+This repository contains a curated collection of my **C++ DSA mini-projects** and exercises developed during my academic coursework. Each module demonstrates core data structures and algorithmic techniques including linked lists, stacks, queues, recursion, matrix operations, and priority queues. These are not just practice codes but carefully crafted implementations with proper logic and structure.
 
 ---
 
-## 🧠 Concepts Used
-
-- `struct` for defining node schema  
-- Singly Linked List implementation  
-- Dynamic memory allocation (`new`, `delete`)  
-- Pointer manipulation and traversal  
-- Basic input/output handling (`cin`, `getline`)  
-- Condition checking and loop controls
+## 📂 Project Categories & Descriptions
 
 ---
 
-## 🗂️ Folder Structure
+### 🔗 1. **Linked Lists**
 
-```bash
-movie-ticket-reservation-cpp/
-│
-├── main.cpp           # Core program logic
-├── README.md          # Project documentation
-```
+#### ➤ `Movie-Ticket-Reservation.cpp`
 
----
+Simulates a simple movie ticket reservation system using **singly linked lists** to manage bookings and cancellations.
 
-## 🚀 How to Compile & Run
-
-#### 💻 Using Terminal
-```
-g++ main.cpp -o ticket_system
-./ticket_system
-```
+> Includes: Add, delete, display booking data.
 
 ---
 
-## 🎮 Program Preview
-```
---- Movie Ticket Reservation System ---
-1. Reserve Ticket
-2. Display Reservations
-3. Cancel Reservation
-4. Exit
-Enter your choice: _
-```
+### 🧠 2. **Priority Queue**
+
+#### ➤ `Task-Manager-Priority-Queue.cpp`
+
+Implements a task manager that uses a **priority queue** (via heap/linked structure) to organize tasks based on priority.
+
+> Real-world simulation of task scheduling logic.
 
 ---
 
-## 📥 Sample Input:
+### 🔢 3. **Matrix Operations**
 
-```
-Ticket Number: 101
-Movie Name: Interstellar
-Customer Name: John Doe
-```
+#### ➤ `Matrix-Addition-Subtraction-Multiplication.cpp`
 
----
+Performs all major matrix operations using **2D arrays**, including addition, subtraction, and multiplication.
 
-## 🗃️ Sample Output:
+> Covers core concepts of matrix manipulation.
 
-```
-Ticket reserved successfully!
-```
+#### ➤ `Matrix-Diagonal-Sum.cpp`
 
----
+Calculates the **sum of primary and secondary diagonals** of a square matrix.
 
-## 🧪 Sample Reservation Data (You Can Use for Testing)
-```
-Ticket Number	Movie Name	Customer Name
-101	Interstellar	John Doe
-102	The Matrix	Alice Smith
-103	Inception	Bob Johnson
-```
+> Strengthens grasp on indexing logic in 2D arrays.
+
+#### ➤ `Rotate-Matrix-90.cpp`
+
+Rotates a matrix **90 degrees clockwise** without using extra space.
+
+> Demonstrates in-place algorithm understanding.
 
 ---
 
-## 🔍 Why This Project is Valuable
-Great starter project to learn data structures in C++
+### 🔁 4. **Recursion**
 
-Helps understand real-life applications of linked lists
+#### ➤ `Tower-of-Hanoi.cpp`
 
-Useful for DSA practice and portfolio building
+Classic recursive algorithm solving the Tower of Hanoi problem for **n disks**.
 
-Can be extended into file handling, seat selection, or even GUI
+> Enhances conceptual clarity of recursion and stack behavior.
 
 ---
 
-## 📃 License
-This project is licensed for educational and personal portfolio use only.
-Not intended for commercial use.
+### 🧱 5. **Stacks & Queues**
+
+#### ➤ `Infix-to-Postfix.cpp`
+
+Converts infix expressions into **postfix notation** using stacks.
+
+> Includes proper precedence and associativity handling.
+
+#### ➤ `Infix-to-Prefix.cpp`
+
+Performs infix to **prefix conversion**, using reversed infix logic and stack-based parsing.
+
+> Enhances expression evaluation concepts.
+
+#### ➤ `Stack-Implementation.cpp`
+
+Custom implementation of a **stack from scratch** using arrays.
+
+> Basic operations: push, pop, peek, isEmpty, isFull.
+
+---
+
+## 🛠️ Technologies Used
+
+* **C++ (C++11/14)**
+* **Standard Template Library (STL)** where needed
+* Basic terminal I/O (`cin`, `cout`)
+* No external libraries used
+
+---
+
+## 🎯 Learning Outcomes
+
+* Strong hands-on understanding of core **data structures**
+* Improved **algorithmic thinking**
+* Application of DSA in real-world inspired mini projects
+* Debugging and writing **clean, modular code**
+
+---
+
+## 📎 How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/DSA-Cpp-Projects.git
+   ```
+
+2. Navigate to any project folder and compile using:
+
+   ```bash
+   g++ filename.cpp -o output  
+   ./output
+   ```
+
+> Each file is independent and self-contained for compilation.
+
+---
+
+## 📌 Note
+
+This repo is created to showcase my journey of learning **DSA in C++**. It's not meant as production-grade code but rather a portfolio of my academic mini-projects and problem-solving efforts.
+
+---
+
+## ⭐ Contributions
+
+Suggestions and improvements are always welcome! Feel free to fork and submit a pull request.
+
+---
+
+Let me know if you want this copy in `.md` format for GitHub, or if you want to add screenshots or flowcharts later.
