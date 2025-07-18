@@ -72,7 +72,12 @@ Customer Name: John Doe
 
 ```
 Ticket reserved successfully!
-🧪 Sample Reservation Data (You Can Use for Testing)
+```
+
+---
+
+## 🧪 Sample Reservation Data (You Can Use for Testing)
+```
 Ticket Number	Movie Name	Customer Name
 101	Interstellar	John Doe
 102	The Matrix	Alice Smith
